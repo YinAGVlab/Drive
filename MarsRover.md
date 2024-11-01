@@ -17,4 +17,4 @@ GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
 //配置只用PB4可为普通IO口:
 GPIO_PinRemapConfig(GPIO_Remap_SWJ_NoJTRST, ENABLE); 
 ```
-编码器读取速率为160Hz，即单位时间为6.25ms，电机传动比为102.08:1，编码器每转计数64个，即电机输出轴转一圈编码器计数64000，PWM部分
+编码器读取速率为160Hz，即单位时间为6.25ms，电机传动比为102.08:1，编码器每转计数64个，即电机输出轴转一圈编码器计数64000,
