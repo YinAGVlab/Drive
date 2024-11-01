@@ -1,4 +1,4 @@
-引脚分配：![Alt Text](Pasted image 20241019231113.png)
+引脚分配：![text](Pasted image 20241019231113.png)
 定时器资源分配：TIM2的CH1与CH4（A0，A3）用作电机PWM<br>TIM3的CH1与CH2（A6，A7）用作编码器1的速度读取，TIM1的CH1和CH2（A8，A9）用作编码器2的速度读取。
 LED部分，为共阴极接法。按键部分，为共阴极接法。
 PB3，PA15为仿真器特殊IO口，需进行如下配置：
